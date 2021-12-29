@@ -20,18 +20,17 @@
       display: inline-block;
       position: relative;
       padding: 0 0.5rem;
-      height: 5rem;
       line-height: 5rem;
       color: var(--gray-300);
 
-      transition: color 0.2s ease;
+      & + a {
+        margin-left: 2rem;
+      }
+
+      transition: color 0.2s;
 
       &:hover {
         color: var(--white);
-      }
-
-      & + a {
-        margin-left: 2rem;
       }
 
       &.active {
@@ -51,6 +50,7 @@
       }
     }
   }
+
   button {
     margin-left: auto;
   }

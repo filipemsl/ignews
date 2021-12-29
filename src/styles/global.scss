@@ -6,6 +6,7 @@
 
 :root {
   --white: #ffffff;
+
   --gray-100: #e1e1e6;
   --gray-300: #a8a8b3;
   --gray-700: #323238;
@@ -23,7 +24,7 @@
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 720px) {
   html {
     font-size: 87.5%;
   }
@@ -36,8 +37,8 @@ body {
 
 body,
 input,
-select,
 textarea,
+select,
 button {
   font: 400 1rem "Roboto", sans-serif;
 }
